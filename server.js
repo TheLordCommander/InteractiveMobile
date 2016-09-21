@@ -11,7 +11,7 @@ var methodOverride = require('method-override');
 
 // configuration ===============================================================
 var connection_string = "mongodb://localhost:27017/mobile";
-mongoose.connect(connection_string);
+//mongoose.connect(connection_string);
 
 app.use(express.static('./public'));
 app.use(morgan('dev')); // logging

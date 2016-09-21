@@ -2,7 +2,7 @@
   config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
     $routeProvider.when('/', {
-            templateUrl: 'views/login.html'
+            templateUrl: 'views/mobile.html'
         });
 
     $locationProvider.html5Mode(true);

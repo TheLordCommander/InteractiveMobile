@@ -1,0 +1,13 @@
+<div class="outer">
+	<div class="stage" ng-controller="StageController as stgCtrl">
+		<div class="stageImageContainer">
+		  <img ng-src={{mobile.src}}  ng-repeat="mobile in stgCtrl.os" class="osImg" ng-click="stgCtrl.osImgClick($index)">
+		</div>
+	</div>
+	<div class="filter" ng-controller="FilterController as filterCtrl">
+		<div class="filterImageContainer">
+		  <img ng-src={{filter.src}}  ng-repeat = "filter in filterCtrl.filters" class="filterImg">
+		</div>
+	</div>
+</div>
+
